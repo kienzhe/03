@@ -32,3 +32,47 @@ h2 {
     background-color: black;
     color: white;
 }
+#border{
+    background-color: brown;
+    height: 10px;
+    width: 300px;
+}
+
+.head{
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+}
+
+/* Alt efter her er bem */
+
+.section{
+    background-color: black;
+    width: 300px;
+}
+.title{
+    color: white;
+}
+.text{ 
+    color: white;
+}
+
+.btn{
+    background-color: yellow;
+}
+
+.section--color{
+    background-color: white;
+}
+
+.title--color{
+    color:black;
+}
+.text--color{
+    color: black;
+}
+
+.btn--color{
+    background-color: black;
+    color: white;
+}
