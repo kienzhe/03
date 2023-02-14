@@ -1,0 +1,42 @@
+body{  
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav{   
+    display: flex;
+    
+}
+
+nav a{ 
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: darkorange;
+    width: 100px;
+    height: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+nav li{
+    list-style: none;
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+    border: solid 1px black;
+}
+
+.main{
+    display: flex;
+}
+
+.mainFooter{
+    display: flex;
+}

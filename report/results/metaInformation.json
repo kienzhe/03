@@ -1,0 +1,19 @@
+{
+  "total": 2,
+  "tools inspection": {
+    "Code Inspection": 2
+  },
+  "linter": "QDJS",
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/kienzhe/03.git",
+        "revisionId": "4c24c2a6f5144517382545a6d770738abfb01e3f",
+        "branch": "main"
+      }
+    },
+    "deviceId": "200820300000000-cddc-1442-dff7-2d271d3857e9",
+    "jobUrl": "",
+    "repoUrl": "https://github.com/kienzhe/03.git"
+  }
+}

@@ -1,0 +1,63 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Unused symbols",
+  "type": "Unused local symbol",
+  "tags": [
+    "JavaScript"
+  ],
+  "severity": "High",
+  "comment": "Unused constant displayType",
+  "detailsInfo": "Reports an unused locally accessible parameter, local variable, function, class, or private member declaration.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "log/indexing-diagnostic/project.15375f63/diagnostic-2023-02-13-09-59-59.509.html",
+      "language": "JavaScript",
+      "line": 100,
+      "offset": 9,
+      "length": 11,
+      "code": {
+        "startLine": 98,
+        "length": 11,
+        "offset": 140,
+        "surroundingCode": "    <script>function hideElementsHavingClass(className, hideOrShow) {\n  const elements = document.getElementsByClassName(className)\n  const displayType = hideOrShow ? 'none' : 'initial'\n  for (const element of elements) {\n    element.classList.toggle('invisible', hideOrShow)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnusedLocalSymbols"
+  },
+  "hash": "990db0b91dfcea9857ad72079e6584926b805abd207199890a8231a58f4be373"
+},{
+  "tool": "Code Inspection",
+  "category": "Unused symbols",
+  "type": "Unused local symbol",
+  "tags": [
+    "JavaScript"
+  ],
+  "severity": "High",
+  "comment": "Unused constant displayType",
+  "detailsInfo": "Reports an unused locally accessible parameter, local variable, function, class, or private member declaration.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "log/indexing-diagnostic/project.15375f63/diagnostic-2023-02-13-10-00-00.719.html",
+      "language": "JavaScript",
+      "line": 100,
+      "offset": 9,
+      "length": 11,
+      "code": {
+        "startLine": 98,
+        "length": 11,
+        "offset": 140,
+        "surroundingCode": "    <script>function hideElementsHavingClass(className, hideOrShow) {\n  const elements = document.getElementsByClassName(className)\n  const displayType = hideOrShow ? 'none' : 'initial'\n  for (const element of elements) {\n    element.classList.toggle('invisible', hideOrShow)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnusedLocalSymbols"
+  },
+  "hash": "ffaf30ed0468794569415b7b9204d0dd070c06d021352de8c4810f920eeefecf"
+}]}

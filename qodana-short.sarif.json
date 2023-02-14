@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/schemastore/schemastore/master/src/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "QDJS",
+          "fullName": "Qodana for JS",
+          "version": "223.8788.112",
+          "rules": [],
+          "taxa": [],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        },
+        "extensions": []
+      },
+      "invocations": [
+        {
+          "exitCode": 0,
+          "toolExecutionNotifications": [],
+          "executionSuccessful": true
+        }
+      ],
+      "language": "en-US",
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/kienzhe/03.git",
+          "revisionId": "4c24c2a6f5144517382545a6d770738abfb01e3f",
+          "branch": "main",
+          "properties": {
+            "repoUrl": "https://github.com/kienzhe/03.git",
+            "lastAuthorName": "Thomas Henriksen",
+            "vcsType": "Git",
+            "lastAuthorEmail": "thomas-henriksen12@hotmail.com"
+          }
+        }
+      ],
+      "results": [],
+      "automationDetails": {
+        "id": "project/qodana/2023-02-13",
+        "guid": "240f0ec2-1ec4-46e9-a23f-83bc3ef6251b",
+        "properties": {
+          "jobUrl": ""
+        }
+      },
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "properties": {
+        "configProfile": "absent",
+        "deviceId": "200820300000000-cddc-1442-dff7-2d271d3857e9"
+      }
+    }
+  ]
+}
