@@ -1,6 +1,8 @@
 body{  
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0s auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 nav{   
@@ -39,4 +41,52 @@ nav li{
 
 .mainFooter{
     display: flex;
+    align-items: center;
 }
+
+.arrow{
+    margin-left: 80%;
+    width: 25px;
+    height: 25px;
+    background: url(bg-direction-nav.png) no-repeat;
+    background-position: -6px -6px;
+    list-style: none;
+}
+
+.arrow--forward{
+    
+    width: 25px;
+    height: 25px;
+    background: url(bg-direction-nav.png) no-repeat;
+    background-position: -55px -6px;
+    list-style: none;
+}
+
+.mainRight{
+    padding-left: 9%;
+}
+.icons{
+    width: 100%;
+}
+
+.contact-dark{
+    background-color: black;
+    width: auto;
+    height: 500px;
+}
+
+.contact-dark h3{
+    color: white;
+}
+
+.contact-dark p{
+    color: white;
+}
+
+.contact-dark input, textarea{
+    background-color: darkgray;
+    width: 200px;
+}
+
+
+
